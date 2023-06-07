@@ -1,11 +1,47 @@
-
+.link{
+    color: tomato;
+}
 .conteiner{
-    position: relative;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 3px;
+
+    
+}
+.img{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 15px;
+    padding-top: 15px;
+        
+}
+body{
+    border-radius: 2px;
+    background: #ffffff;
+    box-shadow:  1px 1px 10px #bebebe,
+                 -1px -1px 1px #bebebe;
+        margin-left: 50px;
+        margin-right: 50px;
 }
 
-.formulario{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+body{
+    font-size: 13px;
+}
+
+.IP{
+    font-size: 10px;
+}
+
+.btn{
+    text-align: center;
+}
+
+.central{
+    text-align: center;
+}
+#botao{
+    background-color: #f78b1f;
+    color: white;
 }
